@@ -22,7 +22,7 @@ class Tidesurf < Formula
     expected = %w[
       get_state navigate click type select scroll extract evaluate list_tabs
       new_tab switch_tab close_tab search screenshot upload clipboard_read
-      clipboard_write download
+      clipboard_write download list_skills read_skill
     ]
     assert_equal expected, result.fetch("data").map { |tool| tool.fetch("name") }
   end

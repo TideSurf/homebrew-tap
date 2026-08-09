@@ -3,8 +3,8 @@ require "json"
 class Tidesurf < Formula
   desc "Stateful Chromium tools with compact DOM text for browser agents"
   homepage "https://tidesurf.org"
-  url "https://registry.npmjs.org/@tidesurf/core/-/core-0.6.3.tgz"
-  sha256 "5f8e6b0cd72d76ed821a079ef7e1cde3b20636d3030fd3da3c901cb74357d13b"
+  url "https://registry.npmjs.org/@tidesurf/core/-/core-0.7.0.tgz"
+  sha256 "bf9cb0a75777c52ac1def203f1a93736314f943e4ece4b9e278c88a5bbac1985"
   license "Apache-2.0"
 
   depends_on "node"
